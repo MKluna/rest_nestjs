@@ -1,0 +1,12 @@
+@url = http://localhost:3000
+
+### create product
+POST {{url}}/product/create
+Content-Type: application/json
+
+{
+  "name": "Celular",
+  "description": "Xiaomi Redmi Note 10",
+  "imageURL": "https://http2.mlstatic.com/D_NQ_NP_711010-MLA46168332171_052021-O.webp",
+  "price": 60000
+}
