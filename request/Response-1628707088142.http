@@ -1,0 +1,9 @@
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 239
+ETag: W/"ef-z3t4wfIpxvDryBwYSmrn94Ly3MM"
+Date: Wed, 11 Aug 2021 18:38:05 GMT
+Connection: close
+
+{"_id":"610d943876359525950f836e","name":"Celular Xiaomi","description":"Xiaomi Redmi Note 10","imageURL":"https://http2.mlstatic.com/D_NQ_NP_711010-MLA46168332171_052021-O.webp","price":60000,"createAt":"2021-08-06T19:57:44.431Z","__v":0}

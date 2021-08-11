@@ -5,8 +5,27 @@ POST {{url}}/product/create
 Content-Type: application/json
 
 {
-  "name": "Celular",
-  "description": "Xiaomi Redmi Note 10",
-  "imageURL": "https://http2.mlstatic.com/D_NQ_NP_711010-MLA46168332171_052021-O.webp",
-  "price": 60000
+  "name": "Gabinete",
+  "description": "Gabinete Redragon Ratchet",
+  "imageURL": "https://http2.mlstatic.com/D_NQ_NP_619212-MLA43549537414_092020-O.webp",
+  "price": 3999
 }
+
+### get all products
+GET {{url}}/product
+
+### get product by id
+
+GET {{url}}/product/610d943876359525950f836e
+
+### update product
+
+PUT {{url}}/product/610d943876359525950f836e
+Content-Type: application/json
+
+{
+  "name": "Celular Xiaomi"
+}
+
+### Delete product
+DELETE {{url}}/product/delete/611402d7bb14ccfe0919bc89

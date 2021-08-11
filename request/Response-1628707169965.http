@@ -1,0 +1,9 @@
+HTTP/1.1 400 Bad Request
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 151
+ETag: W/"97-P8ovaBvBbSw4N5+E2YWqz93LS5I"
+Date: Wed, 11 Aug 2021 18:39:26 GMT
+Connection: close
+
+{"response":{"statusCode":404,"message":"Product not found","error":"Not Found"},"status":404,"message":"Product not found","name":"NotFoundException"}

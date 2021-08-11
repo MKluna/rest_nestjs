@@ -1,0 +1,9 @@
+HTTP/1.1 201 Created
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 303
+ETag: W/"12f-2Xwe/Al7PXIssO01/MC5obNdMyc"
+Date: Wed, 11 Aug 2021 18:35:07 GMT
+Connection: close
+
+{"message":"product created successfully","status":201,"product":{"_id":"6114185b38a81eff68217e44","name":"Gabinete","description":"Gabinete Redragon Ratchet","imageURL":"https://http2.mlstatic.com/D_NQ_NP_619212-MLA43549537414_092020-O.webp","price":3999,"createAt":"2021-08-11T18:35:07.098Z","__v":0}}

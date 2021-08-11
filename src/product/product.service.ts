@@ -35,8 +35,11 @@ export class ProductService {
     return updateProduct;
   }
 
-  async deleteProduct(id: string): Promise<{ message: string }> {
-    await this.productModel.findByIdAndRemove(id);
-    return { message: 'Product removed successfully' };
+  async deleteProduct(id: string) {
+    const product = await this.productModel.findById(id);
+    if (product) {
+      return await this.productModel.findByIdAndRemove(id);
+    }
+    return null;
   }
 }

@@ -1,0 +1,9 @@
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 943
+ETag: W/"3af-eewEAuiLrmtMAtAwdvnFoyw3gTI"
+Date: Wed, 11 Aug 2021 18:36:12 GMT
+Connection: close
+
+[{"_id":"610d943876359525950f836e","name":"Celular Xiaomi","description":"Xiaomi Redmi Note 10","imageURL":"https://http2.mlstatic.com/D_NQ_NP_711010-MLA46168332171_052021-O.webp","price":60000,"createAt":"2021-08-06T19:57:44.431Z","__v":0},{"_id":"611405fc38a81eff68217e3f","name":"Monitor","description":"Sentey Ms1950","imageURL":"https://http2.mlstatic.com/D_NQ_NP_813156-MLA46981400224_082021-O.webp","price":15499,"createAt":"2021-08-11T17:16:44.008Z","__v":0},{"_id":"6114069638a81eff68217e42","name":"Gabinete","description":"Gabinete Redragon Ratchet","imageURL":"https://http2.mlstatic.com/D_NQ_NP_619212-MLA43549537414_092020-O.webp","price":3999,"createAt":"2021-08-11T17:19:18.513Z","__v":0},{"_id":"6114185b38a81eff68217e44","name":"Gabinete","description":"Gabinete Redragon Ratchet","imageURL":"https://http2.mlstatic.com/D_NQ_NP_619212-MLA43549537414_092020-O.webp","price":3999,"createAt":"2021-08-11T18:35:07.098Z","__v":0}]
